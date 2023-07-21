@@ -17,7 +17,7 @@ window = sg.Window("File Compresser",
                              [label2,input2,button2],
                              [compress_button,output_label]])
 while True:
-    event,values =window.read()
+    event,values = window.read()
     print(event,values)
     filepaths=values["files"].split(";")
     folder=values["folder"]
